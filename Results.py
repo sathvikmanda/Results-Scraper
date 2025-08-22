@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 
-csv_file = "roll.csv"
+csv_file = "Roll_Numbers.csv"
 url = "College Website"
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
